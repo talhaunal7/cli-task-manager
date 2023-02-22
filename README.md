@@ -1,5 +1,12 @@
 # cli-task-manager
+
 a CLI tool that can be used to manage your TODOs in the terminal. 
+
+---
+
+<p align="">
+  <img src="https://github.com/talhaunal7/cli-task-manager/blob/main/task.gif" alt="your_gif_alt_text">
+</p>
 
 ```
 $ task
