@@ -15,8 +15,8 @@ func NewTaskController(taskService service.TaskService) TaskController {
 	}
 }
 
-func (tsk *TaskController) Add() {
-	err := tsk.TaskService.Add()
+func (tsk *TaskController) Add(args []string) {
+	err := tsk.TaskService.Add(args)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -24,6 +24,13 @@ func (tsk *TaskController) Add() {
 
 func (tsk *TaskController) List() {
 	err := tsk.TaskService.List()
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
+func (tsk *TaskController) Do(key string) {
+	err := tsk.TaskService.Do(key)
 	if err != nil {
 		log.Fatal(err)
 	}

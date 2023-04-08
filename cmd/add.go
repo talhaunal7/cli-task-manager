@@ -23,7 +23,7 @@ var addCmd = &cobra.Command{
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		ctl := initialize.GetController()
-		ctl.Add()
+		ctl.Add(args)
 	},
 }
 

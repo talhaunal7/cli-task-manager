@@ -53,6 +53,14 @@ $ task list
 * 	[Cobra](https://github.com/spf13/cobra) - Cobra is a library for creating powerful modern CLI applications.
 * 	[BoltDB](https://github.com/boltdb/bolt) - BoltDB is an embedded ACID key/value database written in Go.
 
+### Roadmap
+
+- [x] Organize Project Layout
+- [ ] Switch to a relational database
+- [ ] Add task tags
+- [ ] Add task priority
+- [ ] Add task notes
+
 ### Installation & Usage
 
 1. Installation 

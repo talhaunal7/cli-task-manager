@@ -1,6 +1,7 @@
 package service
 
 type TaskService interface {
-	Add() error
+	Add([]string) error
 	List() error
+	Do(string) error
 }
